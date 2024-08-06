@@ -1,6 +1,6 @@
 # A Random Forest Walk
 
-This app uses a *RandomForestRegressor()* algorithm to build a regression model for the Ames housing dataset. The user can adjust the hyperparameters to see how they affect the results.
+This Streamlit app uses a *RandomForestRegressor()* algorithm to build a regression model for the Ames housing dataset. The user can adjust the hyperparameters to see how they affect the results.
 
 The RandomForestRegressor is an ensemble learning method that builds multiple decision trees
 from random subsets of the training data and averages their predictions to improve accuracy and reduce overfitting.
