@@ -42,7 +42,7 @@ with st.sidebar.subheader('2. General Parameters'):
     parameter_oob_score = st.sidebar.select_slider(
         'Whether to use out-of-bag samples to estimate the R^2 on unseen data (oob_score)', options=[False, True])
     parameter_n_jobs = st.sidebar.select_slider(
-        'Number of jobs to run in parallel (n_jobs)', options=(1, 4))
+        'Number of jobs to run in parallel (n_jobs)', options=([1, 2, 3, 4]))
     
 # ---------------------------------#
 # Model building
